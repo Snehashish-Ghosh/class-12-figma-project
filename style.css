@@ -18,6 +18,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-weight: 400px;
     font-size: 18px;
+    line-height: 1.7;
     background-color: rgb(141, 158, 152);
     color: #fff;
 }
@@ -28,7 +29,9 @@ body {
     padding: 16px 24px !important;
     text-decoration: none;
     color: #fff;
-    margin-left: 24px;
+}
+.theme-button:hover {
+    color: #fff;
 }
 .theme-button-two {
     display: inline-block;
@@ -37,7 +40,6 @@ body {
     padding: 16px 24px !important;
     text-decoration: none;
     color: #043873;
-    margin-left: 24px;
 }
 .theme-button img {
     margin-left: 10px;
@@ -58,6 +60,12 @@ body {
 .header-area .navbar-toggler {
     border: none;
     box-shadow: none;
+}
+.header-area .theme-button {
+    margin-left: 24px;
+}
+.header-area .theme-button-two {
+    margin-left: 24px;
 }
 @media (max-width: 991px) {
 .theme-button {
@@ -84,4 +92,38 @@ body {
     top: 50%;
     transform: translateX(-50%);
 }
+}
+/* Hero-area css */
+.hero-area {
+    background-image: url(img/hero-section.png);
+    padding: 140px 0;
+    background-size: cover;
+    background-position: center;
+}
+.hero-text h3 {
+    font-weight: 700;
+    font-size: 52px;
+}
+.hero-area .theme-button {
+    margin-top: 30px;
+}
+@media (max-width: 991px) {
+    .hero-area {
+        padding: 80px 0;
+    }
+    .hero-text {
+        text-align: center;
+    }
+    .hero-text h3 {
+        font-size: 36px;
+    }
+    .hero-area .theme-button {
+        margin-bottom: 50px;
+    }
+    .header-area .theme-button {
+        margin-left: 0;
+    }
+    .header-area .theme-button-two {
+        margin-left: 0;
+    }
 }
