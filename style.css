@@ -55,6 +55,10 @@ body {
     font-weight: 500px;
     padding: 16px 24px !important;
 }
+.header-area .navbar-toggler {
+    border: none;
+    box-shadow: none;
+}
 @media (max-width: 991px) {
 .theme-button {
     width: 100%;
@@ -70,4 +74,14 @@ body {
     }
 .header-area .nav-link {
     padding: 16px 0;
+}
+.header-area .nav-link {
+    position: relative;
+}
+.header-area .nav-link::after {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateX(-50%);
+}
 }
