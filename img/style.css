@@ -1,0 +1,23 @@
+/*  Google Fonts
+font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif; 
+*/
+
+/* Color 
+Primary color: 043873
+white: #FFFFFF
+yellow: FFE492
+light blue :4F9CF9
+*/
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;700&display=swap');
+
+/* Basic CSS */
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    background-color: rgb(40, 65, 56);
+    color: #fff;
+}
