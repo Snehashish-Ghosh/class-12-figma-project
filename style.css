@@ -8,6 +8,7 @@ Primary color: #043873
 white: #FFFFFF
 yellow: #FFE492
 light blue :4F9CF9
+black: #212529
 */
 
 /* Google fonts */
@@ -43,6 +44,13 @@ body {
 }
 .theme-button img {
     margin-left: 10px;
+}
+.theme-text h3 {
+    font-size: 72px;
+    color: #212529;
+}
+.theme-text p {
+    color: #212529;
 }
 /* Header Css */
 .header-area {
@@ -126,4 +134,8 @@ body {
     .header-area .theme-button-two {
         margin-left: 0;
     }
+}
+/* Management area css */
+.management-area {
+    background-color: #fff;
 }
