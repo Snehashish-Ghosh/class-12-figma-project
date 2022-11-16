@@ -51,6 +51,9 @@ body {
     margin-bottom: 15px;
 
 }
+.theme-text p {
+    color: #212529;
+}
 .theme-text h3 span {
     position: relative;
     z-index: 1;
@@ -179,5 +182,34 @@ body {
     }
     .management-area .theme-button {
         margin-bottom: 50px;
+    }
+}
+/* Start extension area */
+.extension-area {
+    padding: 140px 0;
+    background-color: #043873;
+}
+.extension-area .theme-text h3 {
+    color: #fff;
+}
+.extension-area .theme-text p {
+    color: #fff;
+}
+@media (max-width: 991px) {
+    .extension-area {
+        padding: 80px 0;
+    }
+    .extension-area .theme-button {
+        margin-bottom: 50px;
+    }
+}
+/* cutomize area css */
+.customise-area {
+    background-color: #fff;
+    padding: 140px 0;
+}
+@media (max-width: 991px) {
+    .customise-area {
+        padding: 80px 0;
     }
 }
