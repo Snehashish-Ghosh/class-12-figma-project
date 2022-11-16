@@ -42,6 +42,14 @@ body {
     text-decoration: none;
     color: #043873;
 }
+.theme-button-three {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #FFE492;
+    padding: 16px 24px !important;
+    text-decoration: none;
+    color: #212529;
+}
 .theme-button img {
     margin-left: 10px;
 }
@@ -212,4 +220,55 @@ body {
     .customise-area {
         padding: 80px 0;
     }
+}
+/* price are css */
+.price-area {
+    background-color: #fff;
+    padding: 140px 0;
+} 
+.price-area .theme-text {
+    margin-bottom: 60px;
+}
+.single-price {
+    color: #212529;
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+    padding: 40px 44px;
+}
+.single-price h4 {
+    font-size: 24px;
+    font-weight: 500px;
+}
+.single-price h2 {
+    font-size: 36px;
+    font-weight: 700px;
+    margin: 20px 0;
+}
+.single-price ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: 25px 0;
+}
+.single-price ul li {
+    margin-bottom: 28px;
+}
+.single-price ul li :last-child {
+    margin: 0;
+}
+.special-price {
+    background-color: #043873;
+    color: #fff;
+    padding: 80px 44px;
+}
+.special-price h2 {
+    color: #FFE492;
+}
+@media (max-width: 991px) {
+.price-area {
+    padding: 80px 0;
+    } 
+.single-price {
+    margin-bottom: 30px;
+}   
 }
