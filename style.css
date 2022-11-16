@@ -283,8 +283,40 @@ body {
 .your-work-area .theme-text p {
     color: #fff;
 }
+@media (max-width: 991px) {
+.your-work-area {
+    padding: 80px 0;
+} 
+  
+}
 /* your-task-area */
 .your-task-area {
     padding: 140px 0;
     background-color: #fff;
+}
+@media (max-width: 991px) {
+.your-task-area {
+    padding: 80px 0;
+}
+}
+/* sponsor are css */
+.sponsor-area {
+    padding: 140px 0;
+    background-color: #fff;
+}
+.sponsor-area .theme-text {
+    margin-bottom: 80px;    
+}
+.single-sponsor img{
+    height: 55px;
+    width: auto;
+}
+@media (max-width: 991px) {
+.sponsor-area {
+    margin-top: 80px;
+    padding: 30px 0;
+    }
+.single-sponsor {
+    margin-bottom: 50px;
+}
 }
