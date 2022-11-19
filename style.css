@@ -327,17 +327,23 @@ body {
     background-size: cover;
     background-position: center;
 }
-.apps-text h3 {
+.apps-area .apps-text h3 {
     font-weight: 700;
     font-size: 52px;
 }
 .apps-area .theme-button {
     margin-top: 30px;
 }
+.apps-area .apps-text  {
+    margin-left: 100px;
+} 
 @media (max-width: 991px) {
     .apps-area {
         padding: 80px 0;
     }
+    .apps-area .apps-text  {
+        margin-left: 0;
+    } 
     .apps-image{
         margin-bottom: 50px;
     }
