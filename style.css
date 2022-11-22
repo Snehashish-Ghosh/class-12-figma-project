@@ -382,6 +382,20 @@ body {
     font-size: 16px;
     margin-bottom: 0;
 }
+.testimonial-area .owl-dots button {
+    height: 15px;
+    width: 15px;
+    background-color: #4F9CF9 !important;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.testimonial-area .owl-dots {
+    text-align: center;
+    margin-top: 50px;
+}
+.testimonial-area .owl-dots button.active {
+    background-color: #043873 !important;
+}
 @media (max-width: 991px) {
     .testimonial {
         padding: 80px 0;
