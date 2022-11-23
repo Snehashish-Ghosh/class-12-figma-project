@@ -50,7 +50,7 @@ body {
     text-decoration: none;
     color: #212529;
 }
-.theme-button img {
+.theme-button i {
     margin-left: 10px;
 }
 .theme-text h3 {
@@ -357,10 +357,14 @@ body {
     margin-bottom: 50px;
 }
 .single-testimonial {
+    background-color: #4F9CF9;
     color: #212529;
     padding: 50px 30px;
     box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+}
+.single-testimonial:hover {
+    background-color: #fff;
 }
 .testimonial-text {
     border-bottom: 1px solid #212529;
